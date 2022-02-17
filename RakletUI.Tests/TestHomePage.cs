@@ -1,6 +1,7 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
+using RakletTests.RakletUITests.PageObjectModels;
 using System;
 using Xunit;
 
@@ -31,6 +32,7 @@ namespace RakletTests
         {
             using(IWebDriver driver = new ChromeDriver())
             {
+                
                 driver.Navigate().GoToUrl(HomeUrl);
 
                 Assert.Equal(HomeUrl, driver.Url);
