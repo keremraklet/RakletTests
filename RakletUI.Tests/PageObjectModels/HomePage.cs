@@ -13,6 +13,7 @@ namespace RakletTests.RakletUITests.PageObjectModels
         private const string PageUrl = "https://hello.raklet.net/";
         private const string PageTitle = "Membership Management Software for Associations, " +
             "Clubs, Non-Profits, Chambers, Alumni";
+        
         public HomePage(IWebDriver driver)
         {
             Driver = driver;
